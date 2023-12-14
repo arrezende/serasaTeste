@@ -1,0 +1,49 @@
+.container{
+    display: flex;
+    gap: 1rem;
+}
+h1{
+    font-family: var(--fontDefault);
+    font-size: var(--fontDisplay);
+}
+p{
+    padding: 2rem 0;
+}
+.container div{
+    font-family: var(--fontDefault);
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 3rem 1rem 1rem;
+    max-width: 200px;
+    justify-content: space-between;
+    border: 1px solid var(--dark-low);
+    border-radius: 4px;
+}
+.container div span{
+    margin-bottom: 1rem;
+    display: block;
+}
+.darkLow {
+    background-color: var(--dark-low);
+    color: #fff;
+}
+.darkMedium {
+    background-color: var(--dark-medium);
+    color: #fff;
+}
+.darkHigh {
+    background-color: var(--dark-high);
+    color: #fff;
+}
+.magenta {
+    background-color: var(--magenta);
+    color: #fff;
+}
+.lightSolid {
+    background-color: var(--light-solid);
+}
+.lightHigh {
+    background-color: var(--light-high);
+    color: #fff;
+}

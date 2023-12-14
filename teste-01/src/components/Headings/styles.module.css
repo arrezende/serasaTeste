@@ -1,0 +1,70 @@
+h1{
+    font-family: var(--fontDefault);
+    font-size: var(--fontDisplay);
+}
+
+h2{
+    font-size: 1.2rem;
+    
+    padding: 3rem 0;
+}
+
+table img{
+    margin-right: 0.5rem;
+    width: 16px;
+    height: 16px;
+    margin-left: 0.5rem;
+}
+table{
+    width: 100%;
+    border: 1px solid var(--dark-high);
+    padding: 1rem;
+}
+table thead th{
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--dark-high);
+    
+}
+table thead th td{
+    font-weight: bold;
+    font-size: 1.125rem;
+    padding-bottom: 0;
+}
+table td{
+    padding: 1rem;
+}
+table tbody tr:nth-child(odd) {
+    background-color: #f2f2f2;
+  }
+.display{
+    font-size: var(--fontDisplay);
+    font-weight: 700;
+    letter-spacing: -1.2px;
+}
+.fontHeadingL{
+    font-size: var(--fontHeadingL);
+    font-weight: 700;
+    letter-spacing: -1px;
+}
+.fontHeadingM{
+    font-size: var(--fontHeadingM);
+    font-weight: 700;
+    letter-spacing: -0.6px;
+}
+.fontHeadingS{
+    font-size: var(--fontHeadingS);
+    font-weight: 700;
+    letter-spacing: -0.6px;
+}
+.fontHeadingXS{
+    font-size: var(--fontHeadingXS);
+    font-weight: 700;
+}
+.fontSubheading{
+    font-size: var(--fontSubheading);
+    font-weight: 700;
+}
+.fontBody{
+    font-size: var(--fontBody);
+    font-weight: 700;    letter-spacing: 1px;
+}
